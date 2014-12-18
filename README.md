@@ -4,3 +4,6 @@ This container builds on hpess/chef by adding jvm. Currently installing java
 
 ## Use
 On it's own it isn't much use, it's designed to be the base for java language specific dev environments or java application hosting.
+
+## License
+This application is distributed under the MIT License (MIT)
