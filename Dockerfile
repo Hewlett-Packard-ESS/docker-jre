@@ -1,7 +1,7 @@
 FROM hpess/chef:latest
-MAINTAINER Paul Cooke <paul.cooke@hp.com>
+MAINTAINER Karl Stoney <karl.stoney@hp.com>, Paul Cooke <paul.cooke@hp.com>
 
-RUN yum -y install java-1.7.0-openjdk && \
+RUN yum -y install java-1.7.0-openjdk-headless && \
     yum -y clean all
 
 # Add it to the path
