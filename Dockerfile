@@ -1,4 +1,4 @@
-FROM hpess/chef:latest
+FROM hpess/chef:master
 MAINTAINER Karl Stoney <karl.stoney@hp.com>, Paul Cooke <paul.cooke@hp.com>
 
 RUN yum -y install java-1.7.0-openjdk-headless && \
