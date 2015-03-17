@@ -1,1 +1,1 @@
-sudo docker build -t hpess/jre:latest .
+docker build -t hpess/jre:latest .
